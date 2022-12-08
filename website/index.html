@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Даниил Овчинников">
+    <meta name="description" content="Тестовый сайт">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Солнечные батареи JinkoSolar</title>
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <header z-index: 1>
+      <img class="logo" src="img/лого компании.png"> 
+<div class="header_controls">
+    <a href="#me">О нас</a>
+    <a href="#contacts">Контакты</a>
+    <button id="but" type="button">Заказать</button>
+</div>
+    </header>
+    <section class="part_1">
+        <canvas class="orb-canvas" id="orb-canvas"></canvas>
+        <div class="part_info">
+            <h1>Солнечный панели JinkoSolar</h1>
+            <p>Используйте солнечные батареи и откажитесь<br> от загрязнения воздуха и воды</p>
+            <button id="but_2" type="button">Узнать подробнее</button>
+        </div>
+        <div class="images">
+            <img class="sun" src="img/sun.png"> 
+            <img class="panel" src="img/panel.png"> 
+        </div>
+    </section>
+    <section class="features" id="features">
+       <div class="features_feedback">
+            <div class="features_feedback-left">
+                    <h2>Нам доверяет<br> <div class="features_clients">5000+</div> счастливых клиентов</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>exercitationem neque quo, atque, au</p>
+            </div>
+            <div class="features_feedback-right">
+                <div class="features_lbox">
+                    <h3> 500 тыс $</h3>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="features_rbox">
+                    <h3>5.0</h3>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+            </div>
+       </div> 
+    </section>
+    <section class="promo">
+        
+        <div class="promo_image"></div>
+        <div class="promo_right">
+            <div class="promo_right_box">
+            <h2> Зарядите свой дом</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>exercitationem neque quo, atque, au</p>
+            <button type="button">Заказать</button>
+            </div>
+        </div>
+        
+    </section>
+    <section class="form">
+        <div class="form_info">
+            <h1>Оставьте свои контакты</h1>
+            <p>Lorem ipsum dolor. <br> amet consectetur adipisicing elit.<br> 
+             Temporibus eum iure rem quia.</p>
+             <form id="auto" onsubmit="return authorization(this)" method="post">
+        <div class="form_group">   
+                
+            <label for="name">Ваше имя</label>
+            <input type="text" placeholder="Введите имя" id="name">
+        </div>        
+        <div class="form_group">        
+            <label for="mail">Электронный адресс</label>
+            <input type="email" placeholder="***@***.ru" id="mail">
+        </div>        
+        <div class="form_group">       
+            <label for="phone">Номер телефона</label>
+            <input type="tel" placeholder="7(999) 999 99 99" id="phone">
+        </div>         
+        <div class="form_group">      
+            <label for="budget_select">Примерный бюджет</label>
+            <select name="budget" id="budget_select"> 
+            <option value="">Выберите бюджет</option>
+            <option value="small">200$-500$</option>
+            <option value="average">500$-700$</option>
+            <option value="big">700$-1000$</option>      
+                    </select>
+        </div>
+        <div class="form_group"> 
+            <div id="fix" style="color: red;"></div>        
+                    <button class="form_submit" type="submit">Отправить заявку</button>
+        </div> 
+              
+             </form>
+            </div>
+    </section>
+    <footer id="contacts">
+        <div class="container">
+            <div class="container_group">
+                  <h3>Позвонить нам:</h3>
+            
+                <div class="footer_links">  
+                  <a class="col" href="tel:79999999999">+7 (999) 999-99-99</a>
+                </div>
+            </div> 
+            <div class="container_group"> 
+               <h3>Решения для дома:</h3>
+                 <div class="footer_links">
+                  <a class="col" href="#sun1">Солнечные панели JinkoSolar</a><br>
+                  <a class="col" href="#sun1">Системы солнечных панелей JinkoSolar</a>
+               
+                </div>
+            </div>
+               <div class="container_group">
+               <h3>Компания</h3>
+                 <div class="footer_links">
+                  <a class="col" href="#contacs">Компания</a><br>
+                  <a class="col" href="#vac">Вакансии</a><br>
+                  <a class="col" href="#smi">СМИ</a>   
+            </div>     
+            </div>
+            </div>
+        <div class="copyright">JinkoSolar ©2022</div>
+    </footer>
+    <script src="js/canvas.js"></script>
+    <script src="js/animate.js"></script>
+</body>
+</html>
