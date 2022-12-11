@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Raleway:wght@100;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    font-family: 'Raleway', sans-serif;
+    color: #224391;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.goods{
+    border: 2px solid #6f6f75;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 80%;
+    margin-bottom: 8px;
+}
+.img{
+    width: 100px;
+}
+.price{
+    font-weight: bold;
+    margin: 0;
+}
+.button{
+    padding: 7px;
+    font-size: 15px;
+    background-color: #426fda;
+    color: #fff;
+    border: none;
+    margin-top: 7px;
+    border-radius: 20px;
+    width: 180px;
+    cursor: pointer;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #426fda;
+    color: #fff;
+    margin-bottom: 5px;
+    position: sticky;
+    top: 0;
+}
+
+.search{
+    border: 2px;
+    float: right;
+    margin-right: 8px;
+    padding: 7px;
+    font-size: 15px;
+    background-color: #fff;
+    color: #426fda;
+    border: none;
+    margin-left: 10px;
+}
+
+.search_button{
+    padding: 7px;
+    font-size: 15px;
+    background-color: #fff;
+    color: #426fda;
+    border: none;
+    float: right;
+    cursor: pointer;
+}
+
+.path{
+    background: #426fda;
+    color: #fff;
+    display: flex;
+
+}
+.path1{
+   margin-left: 15px;
+    margin-right: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+}
+.path2{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+
